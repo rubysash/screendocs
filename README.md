@@ -33,10 +33,11 @@ pip install -r requirements.txt
 
 ## Usage
 
-Launch the application by running:
+Launch the application from environment by running:
 ```python
 python main.py
 ```
+or run the `start.bat` as a shortcut from anywhere to load the venv for you.
 
 ### Basic Workflow
 
