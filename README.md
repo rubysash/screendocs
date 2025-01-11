@@ -2,9 +2,15 @@
 
 A powerful, lightweight screen capture utility built with PyQt5 that allows you to capture specific regions across multiple monitors with keyboard shortcuts and selection locking.
 
+Better than other tools because it saves the screens with a session name, on the selection you chose.   Easy to have time stamped files relating to a specific session, great for documentation.
+
+Wrote because manually clicking capture over and over and redrawing the area you are capturing (such as during a presentation) is tedious.   This allows you to hotkey the capture on a specific section as often as needed and to continue using your computer like normal until ready for another capture.   It's great for taking notes when you are being trained.
+
+It saves images, not video, so actual storage space is tiny.
+
 ## Features
 
-- Cross-monitor screen region selection
+- Cross-monitor screen region selection, multiple monitors are ok to select if you desire.
 - Lock/unlock capture regions for repeated screenshots
 - Keyboard shortcuts for all major functions
 - Session-based naming with automatic timestamps
