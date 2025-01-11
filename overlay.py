@@ -215,17 +215,6 @@ class Overlay(QtWidgets.QWidget):
             QtWidgets.QMessageBox.warning(self, "Capture Error", msg)
             print("Invalid capture parameters")
 
-    def delayed_capture(self):
-        """
-        Handle delayed capture timer execution.
-
-        Executes the capture operation with stored coordinates after a delay.
-        This method is triggered by a QTimer to ensure the overlay is fully hidden
-        before capture.
-        """
-        if hasattr(self, "capture_coords"):
-            x1, y1, width, height = self.capture_coords
-            self.do_capture(x1, y1, width, height)
 
     def do_capture(self, x1, y1, width, height):
         """
