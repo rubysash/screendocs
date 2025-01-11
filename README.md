@@ -110,6 +110,9 @@ Screenshots are saved automatically with the format:
 - Invalid session names will prompt for correction
 - Each capture includes a timestamp for easy organization
 
+## Todo
+- Add timed capture so popup menus on other focus can be captured too.
+
 ## Requirements
 
 - Python 3.12.3
